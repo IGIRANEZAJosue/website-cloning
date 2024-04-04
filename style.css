@@ -31,5 +31,5 @@ a:hover {
 
 .image-cover {
    background-image: url("./assets/hero.jpeg");
-   background-size: contain;
+   background-size: cover;
 }
