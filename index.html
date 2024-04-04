@@ -3,16 +3,75 @@
 <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
    <script src="https://cdn.tailwindcss.com"></script>
+   <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.3.0/css/all.css">
+   <link rel="stylesheet" href="style.css">
+
+
    <title>Website Clone</title>
+
 </head>
 <body>
-   <div class="container">
-      <nav class="w-full flex items-center justify-between">
-         <h1>Hello World</h1>
-         <h1>Hello World</h1>
-         <h1>Hello World</h1>
+   <div class="">
+      <nav class=" px-20 h-[10vh] bg-white flex items-center justify-between">
+         <div class="logo">
+            <h1>Logo</h1>
+         </div>
+         <div class="navlinks flex items-center gap-8 text-sm font-medium ">
+            <span class="flex gap-2 items-center px-6 py-1 border-2 border-[#828595] rounded-full hover:bg-[#ECF4FD]">
+               <i class="fa-regular fa-download text-[#828595]"></i>
+               <p>Download app</p>
+            </span>
+            <a href=""><span><p>Travel planner </p></span></a>
+            <a href=""><span><p class=" hover:text-[#828595]">Register accomodation</p></span></a>
+            <a href=""><span><p class=" hover:text-[#828595]">Help</p></span></a>
+            <a href=""><span><p class=" hover:text-[#828595]">My trips</p></span></a>
+            <a href=""><span><p class=" hover:text-[#828595]">Register</p></span></a>
+         </div>
       </nav>
+
+      <!-- hero -->
+      <div class="hero h-[90vh] w-full flex flex-col justify-center gap-8 px-20 bg-black text-white">
+         <h1 class="text-5xl  font-bold ">Find your place for each other</h1>
+         <div class="form flex gap-4 p-4 bg-[#F7F7F8] rounded-2xl text-black ">
+            <div class="flex flex-1 w-full items-center gap-2 bg-white px-4 rounded-md border-[1px] border-black">
+               <i class="fa-regular fa-regular  fa-location-dot"></i>
+               <input placeholder="Location" type="text" class=" px-4 py-2 w-full">
+            </div>
+            <div class="flex flex-1 w-full items-center gap-2 bg-white px-4 rounded-md border-[1px] border-black">
+               <i class="fa-regular fa-calendar-days"></i>
+               <input placeholder="Date" type="date" class=" px-4 py-2 w-full">
+            </div>
+            <div class="flex flex-1 w-full items-center gap-2 bg-white px-4 rounded-md border-[1px] border-black">
+               <i class="fa-regular fa-user"></i>
+               <input placeholder="" type="text" class=" px-4 py-2 w-full border-transparent">
+            </div>
+
+            <button class="bg-[#191E3B] px-4 py-2 rounded-full text-white">Search</button>
+         </div>
+      </div>
+
+      <!-- Suggestions for you -->
+      <section class=" py-12 px-20">
+         <h1>Suggestions for you</h1>
+         <div>
+            <h1>Popular travel destinations</h1>
+            <div>
+               <img src="" alt="">
+               <span class=" w-full">
+                  <h2>Kigali</h2>
+               </span>
+            </div>
+         </div>
+      </section>
+
+
+
+
+
+
    </div>
 </body>
 </html>
